@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+
+body {
+  font-family: 'Sigmar', cursive;
+  font-weight: 900;
+}
+
+.game-container {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 0 ;
+  color: #fff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+  
+
+}
+
+.game-container .app {
+  background-image: linear-gradient(150deg,
+            #2bb4f3,
+            rgb(93, 220, 131),
+            #00fbff);
+  max-width: 650px;
+  min-width: 500px;
+
+
+  border-radius: 15px;
+  padding: 60px;
+  box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
+
+  
+}
+
+
+
+
+/*colores de los span*/
+.pregunta{
+  background-color:#e537eb;
+}
+
+.tiempo-restante{
+  background-color:#eb4937;
+}
+
+#contenedor {
+
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
